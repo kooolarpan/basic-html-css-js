@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.header-section {
+    display: flex;
+}
+
+.container {
+    margin: 80px;
+
+}
+.image_1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-section {
+    margin-right: 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.header-section img {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.hero-section h1 {
+    font-size: 50px;
+
+}
+
+.hero-section p {
+    font-size: 20px;
+
+}
+
+.hero-section button {
+    width: 33%;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #087f5b;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-section button:hover {
+    background-color: #035c41;
+}
+
+.objective-section h2 {
+    padding-bottom: 20px;
+}
+
+.objectives {
+    display: flex;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 16px;
+}
+
+.objectives div {
+    margin-right: 20px;
+}
+
+.objectives i {
+    font-size: 30px;
+    color: #087f5b;
+    margin-bottom: 10px;
+}
+
+.testimonial-section{
+    color: white;
+    background-color: #076b4d;
+    padding: 20px;
+    border-radius: 14px;
+    margin-top:40px;
+    span{
+        font-weight: 600;
+    }
+    h3{
+        font-size: 26px;
+    }
+}
+
+.testimonal{
+    display: flex;
+    img{
+        width: 300px;
+        border-radius: 14px;
+
+    }
+    .details{
+        margin-left: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    span{
+        margin-top: 20px;
+    }
+}       
