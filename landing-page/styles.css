@@ -19,7 +19,8 @@ body {
     margin: 80px;
 
 }
-.image_1{
+
+.hero-img {
     display: flex;
     flex-wrap: wrap;
 }
@@ -85,34 +86,125 @@ body {
     margin-bottom: 10px;
 }
 
-.testimonial-section{
+.testimonial-section {
     color: white;
     background-color: #076b4d;
     padding: 20px;
     border-radius: 14px;
-    margin-top:40px;
-    span{
+    margin-top: 40px;
+
+    span {
         font-weight: 600;
     }
-    h3{
+
+    h3 {
         font-size: 26px;
     }
 }
 
-.testimonal{
+.testimonal {
     display: flex;
-    img{
+
+    img {
         width: 300px;
         border-radius: 14px;
 
     }
-    .details{
+
+    .details {
         margin-left: 24px;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    span{
+
+    span {
         margin-top: 20px;
     }
-}       
+}
+
+.product-section {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+    button {
+        padding: 12px;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: #087f5b;
+        color: white;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .products {
+        display: flex;
+
+        .price {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+
+            p {
+                margin-right: 20px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .features {
+        margin-top: 14px;
+    }
+
+    img {
+        margin-bottom: 20px;
+        border-top-left-radius: 14px;
+        border-top-right-radius: 14px;
+        width: 300px;
+    }
+
+    .first-product {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second-product {
+        margin: 20px;
+    }
+
+    .third-product {
+        margin: 20px;
+    }
+}
+
+.copyright {
+    padding: 12px;
+    background-color: #076b4d;
+
+    p {
+        color: white;
+        text-align: center;
+    }
+}
+
+.menu {
+    background-color: #076b4d;
+    overflow: hidden;
+    padding-left: 60px;
+    a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+}
